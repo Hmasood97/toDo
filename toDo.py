@@ -6,8 +6,9 @@ import random
 root = Tkinter.Tk()
 
 # Function Definitions
-#hay
 
+def add_task():
+    pass
 
 
 
@@ -31,6 +32,20 @@ txt_input.pack()
 #add Task button
 btn_add_task = Tkinter.Button(root, text = "Add Task", fg = "green", bg= "white")
 btn_add_task.pack()
+
+#Del button
+btn_del = Tkinter.Button(root, text = "Delete Task", fg = "green", bg= "white")
+btn_del.pack()
+
+
+#Sort button ascending
+btn_sortA = Tkinter.Button(root, text = "Sort Ascending", fg = "green", bg= "white")
+btn_sortA.pack()
+
+#Sort Descending
+btn_sortD = Tkinter.Button(root, text = "Sort Descending", fg = "green", bg= "white")
+btn_sortD.pack()
+
 
 
 
