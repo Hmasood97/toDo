@@ -1,2 +1,2 @@
 # toDo
-toDo List made in python to work on python and gui
+toDo List made in python to practice python and python gui
